@@ -37,7 +37,7 @@ const Navbar = () => {
                         </ul>
                         <ul className="navbar-nav ml-auto">
                             <li className="nav-item">
-                                <a className="nav-link" href="https://api.whatsapp.com/send?phone=569XXXXXXXX&text=Bienvenido%20a%20ProtegePyme!%20Como%20te%20podemos%20ayudar!" target="_blank" rel="noopener noreferrer"><i className="fab fa-whatsapp fa-2x mr-2"></i></a>
+                                <a className="nav-link" href="https://api.whatsapp.com/send?phone=56931816173" target="_blank" rel="noopener noreferrer"><i className="fab fa-whatsapp fa-2x mr-2"></i></a>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link btn btn-success rounded-pill" to="/login">Login</Link>

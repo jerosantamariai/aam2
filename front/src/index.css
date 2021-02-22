@@ -174,3 +174,23 @@ table, th, td {
     color: rgb(0, 237, 179);
     min-height: 500px;
 }
+
+.wppcontent {
+    width: 300px;
+    height: auto;
+    background-color: rgb(56, 68, 124);
+    color: rgb(0, 237, 179);
+    padding: 20px;
+    border-radius: 25px;
+    position: inherit !important;
+}
+
+.wppcontent:hover {
+    width: 300px;
+    height: auto;
+    background-color: rgb(48, 62, 124);
+    color: rgb(0, 255, 191);
+    padding: 20px;
+    border-radius: 25px;
+    position: inherit !important;
+}
