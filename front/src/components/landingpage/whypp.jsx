@@ -5,7 +5,7 @@ const WhyPP = props => {
         <section className="container3" name="whypp" id="whypp">
             <div className="d-flex mx-auto position-inherit">
                 <div className="row d-flex justify-content-center position-inherit">
-                    <div className="col-5 position-inherit">
+                    <div className="col-5 position-inherit cd">
                         <div className="col-8 offset-2 position-inherit">
                             <h1>¿Por qué elegir ProtegePyme?</h1>
                             <p>Nuestro trabajo es garantía de compromiso, dedicación y experiencia</p>
