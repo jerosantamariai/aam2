@@ -46,7 +46,7 @@ const Price = props => {
                 <div className="aviso mx-auto py-5 px-3">
                     <h1>No te lleves sorpresas con los cobros!</h1>
                     <p><strong>Nuestros precios son transparentes</strong> y por eso te invitamos a contactarnos con nosotros.</p>
-                    <div className="btn btn-success">Contáctanos</div>
+                    <a className="nav-link btn btn-success" href="#form" role="button">Contáctanos</a>
                 </div>
             </div>
         </div>

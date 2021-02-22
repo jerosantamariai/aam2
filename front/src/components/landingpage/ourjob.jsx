@@ -26,7 +26,7 @@ const OurJob = props => {
                 <div className="aviso mx-auto py-5 px-3">
                     <h1>Si no te pagaron... No todo esta perdido!</h1>
                     <p><strong>¡RECUPERA TU DINERO!</strong> Tienes el derecho a cobrar judicialmente lo que no te pagaron, prueba con nosotros!</p>
-                    <div className="btn btn-success">Contáctanos</div>
+                    <a className="nav-link btn btn-success" href="#form" role="button">Contáctanos</a>
                 </div>
             </div>
         </section>

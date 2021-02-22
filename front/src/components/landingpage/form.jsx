@@ -32,6 +32,9 @@ const Form = props => {
                                 <textarea class="form-control my-2" id="textArea" rows="8" placeholder="Cuentame aquí como te puedo ayudar..."></textarea>
                             </div>
                         </div>
+                        <div>
+                            <p>Recuerda que nos puedes llamar al teléfono <a href="tel:+56931816173">+56 9 3181 6173</a> o escribirnos al correo <a href="mailto:abogados@protegepyme.com">abogados@protegepyme.com</a></p>
+                        </div>
                     </form>
                 </div>
             </div>
