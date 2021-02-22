@@ -2,7 +2,7 @@ import React from 'react';
 
 const WhyPP = props => {
     return (
-        <section className="container3 py-5">
+        <section className="container3" name="whypp" id="whypp">
             <div className="d-flex mx-auto">
                 <h1>¿Por qué elegir ProtegePyme?</h1>
                 <ul>

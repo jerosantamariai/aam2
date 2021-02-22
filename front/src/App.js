@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Footer from './components/footer';
+import Login from './components/login';
 import Navbar from './components/navbar';
 import injectContext from './store/appContext';
 import Home from './views/home';
@@ -14,6 +15,7 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Switch>
+          <Route exact path="/login" component={Login} />
           <Route exact path="/" component={Home} />
           <Route component={notFound} />
         </Switch>
