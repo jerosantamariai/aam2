@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Footer = props => {
     return (
         <>
-            <footer className="bg-dark text-white">
+            <footer className="footer">
                 <div className="footerContainer">
                     <div className="row text-center d-flex justify-content-center pt-4">
                         <div className="col-md-2 my-2">
@@ -26,11 +26,8 @@ const Footer = props => {
                     <hr className="hrsolid" />
                     <div className="row d-flex text-center justify-content-center mb-md-0 mb-4">
                         <div className="col-md-8 col-12 my-2">
-                            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                            accusantium doloremque laudantium, totam rem
-                            aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
-                            explicabo.
-                            Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur.</p>
+                        <p>Teléfono: <a href="tel:+56931816173">+56 9 3181 6173</a></p>
+                        <p> Correo <a href="mailto:abogados@protegepyme.com">abogados@protegepyme.com</a></p>
                         </div>
                     </div>
                     <hr className="hrsolid" />

@@ -63,7 +63,7 @@ const WhyPP = props => {
                 <div className="aviso mx-auto py-5 px-3">
                     <h1>Reportamos frecuentemente el estado de tu juicio!</h1>
                     <p><strong>La comunicación es fundamental...</strong> Es lo que nos caracteriza!</p>
-                    <div className="btn btn-success">Contáctanos</div>
+                    <a className="nav-link btn btn-success" href="#form" role="button">Contáctanos</a>
                 </div>
             </div>
         </section>
