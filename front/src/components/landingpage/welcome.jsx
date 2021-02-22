@@ -5,7 +5,7 @@ const Welcome = props => {
     return (
         <section className="container1 color-verde d-flex py-5">
             <div className="photo col-5 position-inherit">
-                <p className="mx-auto my-auto">Aqui va una imagen con fondo trasparente</p>
+                <p>Aqui va una imagen con fondo trasparente</p>
                 {/* <img src={HammerLaw} alt="hammer"/> */}
             </div>
             <div className="content text-center col-7 position-inherit">

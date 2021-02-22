@@ -8,7 +8,7 @@ const Navbar = () => {
         <>
             <nav className="navbar navbar-expand-lg navbar-light personalColor">
                 <div className="container py-2">
-                    <Link className="navbar-brand" to="/"> <img src={LogoProtegePyme} alt="ProtegePyme" width="120"   />  </Link>
+                    <Link className="navbar-brand" to="/" width="120"><img src={LogoProtegePyme} alt="ProtegePyme" width="120"/></Link>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon">
                             <i class="fas fa-align-justify"></i>
@@ -20,27 +20,27 @@ const Navbar = () => {
                                 <a className="nav-link" href="#ourjob">¿Cómo Trabajamos?</a>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="/whypp">¿Porqué Nosotros?</Link>
+                                <a className="nav-link" href="#whypp">¿Porqué Nosotros?</a>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="/price">Precios</Link>
+                                <a className="nav-link" href="#price">Precios</a>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="/form">Contacto</Link>
+                                <a className="nav-link" href="#form">Contacto</a>
+                            </li>
+                            {/* <li className="nav-item">
+                                <a className="nav-link" to="#">Conoceme!</a>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="#">Conoceme!</Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link className="nav-link" to="#">Blog</Link>
-                            </li>
+                                <a className="nav-link" to="#">Blog</a>
+                            </li> */}
                         </ul>
                         <ul className="navbar-nav ml-auto">
                             <li className="nav-item">
-                                <Link className="nav-link" to="#"><i className="fab fa-whatsapp fa-2x mr-2"></i></Link>
+                                <a className="nav-link" href="https://api.whatsapp.com/send?phone=569XXXXXXXX&text=Bienvenido%20a%20ProtegePyme!%20Como%20te%20podemos%20ayudar!" target="_blank" rel="noopener noreferrer"><i className="fab fa-whatsapp fa-2x mr-2"></i></a>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link btn btn-success rounded-pill" to="#">Login</Link>
+                                <Link className="nav-link btn btn-success rounded-pill" to="/login">Login</Link>
                             </li>
                         </ul>
                     </div>

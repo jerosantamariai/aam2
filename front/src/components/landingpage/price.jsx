@@ -2,7 +2,7 @@ import React from 'react';
 
 const Price = props => {
     return(
-        <div className="container4">
+        <div className="container4" name="price" id="price">
             <div className="top d-flex justify-content-center py-5">
             <h1>Precios Referenciales</h1>
             <ul>
