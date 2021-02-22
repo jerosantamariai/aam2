@@ -3,7 +3,7 @@ import React from 'react';
 const WhyPP = props => {
     return (
         <section className="container3 py-5">
-            <div className="d-flex">
+            <div className="d-flex mx-auto">
                 <h1>¿Por qué elegir ProtegePyme?</h1>
                 <ul>
                     <li>Partner estratégico de CobranzaOnline, líder en la cobranza extrajudicial de facturas.</li>

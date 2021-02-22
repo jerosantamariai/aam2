@@ -162,3 +162,9 @@ nav {
 .aviso .btn {
     float: right;
 }
+
+table, th, td {
+    border: 1px solid  rgb(0, 237, 179);
+    text-align: center;
+    padding: 20px;
+  }
