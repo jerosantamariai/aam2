@@ -7,7 +7,7 @@ const Navbar = () => {
     return (
         <>
             <nav className="navbar navbar-expand-lg navbar-light personalColor">
-                <div className="container">
+                <div className="container py-2">
                     <Link className="navbar-brand" to="/"> <img src={LogoProtegePyme} alt="ProtegePyme" width="120"   />  </Link>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon">
