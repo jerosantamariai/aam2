@@ -1,19 +1,12 @@
 import React from 'react';
 
 const Price = props => {
-    return(
+    return (
         <div className="container4" name="price" id="price">
             <div className="top d-flex justify-content-center py-5">
-            <h1>Precios Referenciales</h1>
-            <ul>
-                <li>Ingresar tabla de precios en juicios ejecutivos.</li>
-                <li>No incluye costas gastos del juicio.</li>
-                <li>Juicios ordinarios.</li>
-                <li>Desde 12 UF.</li>
-                cambiando algo
-            </ul>
+                <h1>Nuestros Precios</h1>
             </div>
-            <div className="bottom content-center py-5">
+            <div className="bottom content-center">
                 <table className="mx-auto">
                     <tr>
                         <th>TRAMO DEUDA</th>
@@ -21,26 +14,31 @@ const Price = props => {
                         <th>ANTICIPO A TODO EVENTO (se imputa y deduce de la comisión)</th>
                     </tr>
                     <tr>
-                        <th>$ 3.000.000 - $ 4.999.999</th>
-                        <th>17%</th>
-                        <th>$ 289.000</th>
+                        <td>$ 3.000.000 - $ 4.999.999</td>
+                        <td>17%</td>
+                        <td>$ 289.000</td>
                     </tr>
                     <tr>
-                        <th>$ 5.000.000 - $ 9.999.999</th>
-                        <th>15%</th>
-                        <th>$ 379.000</th>
+                        <td>$ 5.000.000 - $ 9.999.999</td>
+                        <td>15%</td>
+                        <td>$ 379.000</td>
                     </tr>
                     <tr>
-                        <th>$ 10.000.000 - $ 20.000.000</th>
-                        <th>12%</th>
-                        <th>$ 399.000</th>
+                        <td>$ 10.000.000 - $ 20.000.000</td>
+                        <td>12%</td>
+                        <td>$ 399.000</td>
                     </tr>
                     <tr>
-                        <th>Sobre $ 20.000.000</th>
-                        <th>10%</th>
-                        <th>$ 439.000</th>
+                        <td>Sobre $ 20.000.000</td>
+                        <td>10%</td>
+                        <td>$ 439.000</td>
                     </tr>
                 </table>
+                <ul className="obs text-center">
+                    <li>No incluye costas gastos del juicio.</li>
+                    <li>Juicios ordinarios.</li>
+                    <li>Desde 12 UF.</li>
+                </ul>
             </div>
             <div className="break py-5">
                 <div className="aviso mx-auto py-5 px-3">

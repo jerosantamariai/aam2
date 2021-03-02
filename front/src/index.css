@@ -17,11 +17,11 @@
     src: url('../src/fonts/auroregular.otf');
 }
 
-h1 {
+h1, th {
     font-family: AuroBlack;
 }
 
-h2, h3, h4, h5, h6, p, nav {
+h2, h3, h4, h5, h6, p, nav, td, li {
     font-family: AuroRegular;
 }
 
@@ -176,6 +176,27 @@ nav {
     color: white;
     width: 100vw;
 }
+
+.container4 ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+  
+.container4 li {
+padding-left: 1em;
+text-indent: -1em;
+}
+  
+.container4 li:before {
+content: "*";
+padding-right: 5px;
+}
+
+/* .container4 .obs {
+    margin-left: auto;
+    margin-right: auto;
+} */
 
 .subForm {
     background-color: rgba(255, 255, 255, 0.5);
