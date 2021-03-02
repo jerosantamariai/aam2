@@ -1,17 +1,32 @@
 import React from 'react';
-import HammerLaw from '../../img/hammerlaw.png'
+import LogoPP from '../../img/logoProtegePyme.png';
+import Typical from 'react-typical';
 
 const Welcome = props => {
     return (
-        <section className="container1 color-verde d-flex py-5">
-            <div className="photo col-5 position-inherit text-center">
-                {/* <p>Aqui va una imagen con fondo trasparente</p> */}
-                <img src={HammerLaw} alt="hammer"/>
-            </div>
-            <div className="content text-center col-7 position-inherit">
-                <h1 className="d-flex justify-content-center pt-5"><strong>!Cobranza judicial de documentos impagos!</strong></h1>
-                <h2 className="d-flex justify-content-center pt-5">Facturas, cheques y pagarés.</h2>
-                <p className="d-flex justify-content-center pt-5">Estudio jurídico 100% online</p>
+        <section className="container1 color-verde d-flex">
+            <div className="row mx-auto rowOJ">
+                <div className="content col-6 position-inherit my-auto">
+                    <h1 className="d-flex justify-content-center">Cobranza judicial de</h1>
+                    <h2 className="d-flex justify-content-center">
+                        <Typical
+                            loop={Infinity}
+                            wrapper='b'
+                            steps={[
+                                'Facturas,',
+                                1000,
+                                'cheques',
+                                1000,
+                                'y pagarés',
+                                1500,
+                            ]}
+                        /></h2>
+                    <p className="d-flex justify-content-center">Estudio jurídico 100% online</p>
+                </div>
+                <div className="photo col-6 position-inherit text-center my-auto">
+                    {/* <p>Aqui va una imagen con fondo trasparente</p> */}
+                    <img src={LogoPP} alt="logopp" className="logoPPOJ" />
+                </div>
             </div>
         </section>
     );
