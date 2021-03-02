@@ -33,6 +33,10 @@ h2, h3, h4, h5, h6, p, nav, td, li {
     background-color: rgb(45, 51, 77);
 }
 
+hr {
+    background-color: rgb(0, 237, 179);
+}
+
 .position-inherit {
     position: inherit !important;
 }  
