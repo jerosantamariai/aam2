@@ -4,9 +4,22 @@
     top: 0 !important;
     width: 100% !important;
 } */
+@font-face{
+    font-family: AuroBlack;
+    src: url('../src/fonts/auroblack.otf');
+}
 
-body { 
-    padding-top: 71px;
+@font-face{
+    font-family: AuroRegular;
+    src: url('../src/fonts/auroregular.otf');
+}
+
+h1 {
+    font-family: AuroBlack;
+}
+
+h2, h3, h4, h5, h6, p, nav {
+    font-family: AuroRegular;
 }
 
 .color-verde{
@@ -20,7 +33,16 @@ body {
 .container1 {
     background-color: rgb(45, 51, 77);
     color: white;
-    padding: 40px 16px;
+    padding: 40px 16px;    
+}
+
+.rowOJ {
+    height: 100vh;
+    vertical-align: middle !important;
+}
+
+.logoPPOJ {
+    width: 80%;
 }
 
 .container2 {
