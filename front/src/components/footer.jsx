@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Typical from 'react-typical';
 
 const Footer = props => {
     return (
@@ -23,14 +24,14 @@ const Footer = props => {
                             </h6>
                         </div>
                     </div>
-                    <hr className="hrsolid" />
+                    <hr className="w-75 mx-auto" />
                     <div className="row d-flex text-center justify-content-center mb-md-0 mb-4">
                         <div className="col-md-8 col-12 my-2">
-                        <p>Teléfono: <a href="tel:+56931816173">+56 9 3181 6173</a></p>
-                        <p> Correo <a href="mailto:abogados@protegepyme.com">abogados@protegepyme.com</a></p>
+                            <p>Teléfono: <a href="tel:+56931816173">+56 9 3181 6173</a></p>
+                            <p> Correo <a href="mailto:abogados@protegepyme.com">abogados@protegepyme.com</a></p>
                         </div>
                     </div>
-                    <hr className="hrsolid" />
+                    <hr className="w-75 mx-auto" />
                     <div className="row py-2">
                         <div className="col-md-12">
                             <div className="mb-4 d-flex justify-content-center">
@@ -55,6 +56,10 @@ const Footer = props => {
                             </div>
                         </div>
                     </div>
+                </div>
+                <hr className="w-75 mx-auto" />
+                <div className="d-flex justify-content-center">
+                    <p className="firma">Diseñado y programado por <strong><a href="http://www.santamariai.cl">JEROSANTAMARIAI</a></strong></p>
                 </div>
             </footer>
 
