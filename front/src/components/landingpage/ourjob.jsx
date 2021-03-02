@@ -6,7 +6,7 @@ const OurJob = props => {
     return (
         <section className="container2 pb-5" name="ourjob" id="ourjob" >
             <div className="row position-inherit">
-                <div className="col-12 position-inherit">
+                <div className="col-12 text-center position-inherit">
                     <h1>¿Como trabajamos?</h1>
                 </div>
             </div>

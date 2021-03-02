@@ -63,7 +63,7 @@ nav {
     top: 0 !important;
 }
 .navbar, html{
-    width: 98.8% !important;
+    width: 95% !important;
 }
 .navbar-light .navbar-toggler-icon{ 
     color: rgb(0, 237, 179);
@@ -131,22 +131,50 @@ nav {
     height: auto;
 }
 
-
-
 /* ############ FIN OURJOB ############ */
+/* ############ INICIO WHYPP ############ */
 
 .container3 {
     background-color: rgb(45, 51, 77);
     color: white;
-    margin-top: -16px;
-    padding: 40px 16px;
-    z-index: 100;
+    width: 100vw;
 }
+
+.wppcontent {
+    width: 300px;
+    height: auto;
+    background-color: rgb(56, 68, 124);
+    color: rgb(0, 237, 179);
+    padding: 20px;
+    border-radius: 25px;
+    position: inherit !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wppcontent:hover {
+    width: 300px;
+    height: auto;
+    background-color: rgb(48, 62, 124);
+    color: rgb(0, 255, 191);
+    padding: 20px;
+    border-radius: 25px;
+    position: inherit !important;
+}
+
+.headerwpp {
+    width: 300px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ############ FIN WHYPP ############ */
 
 .container4 {
     background-color: rgb(45, 51, 77);
     color: white;
-    padding: 40px 16px;
+    width: 100vw;
 }
 
 .subForm {
@@ -161,34 +189,11 @@ nav {
     background-position: center;
     background-size: cover;
     background-color: rgb(45, 51, 77);
+    width: 100vw;
 }
 
 
 
-
-.photo {
-    width: 30%;
-    
-}
-
-.macLogo {
-    padding: 60px;
-    max-width: 100%;
-    height: auto;
-    border-radius: 40%;
-}
-
-
-
-.co, .pp {
-    width: 45%;
-    height: 200px;
-}
-
-.arrow {
-    width: 10%;
-    height: 200px;
-}
 
 @media (max-width: 299px) {
     .fa-arrow-circle-right {
@@ -224,25 +229,7 @@ table, th, td {
     min-height: 500px;
 }
 
-.wppcontent {
-    width: 300px;
-    height: auto;
-    background-color: rgb(56, 68, 124);
-    color: rgb(0, 237, 179);
-    padding: 20px;
-    border-radius: 25px;
-    position: inherit !important;
-}
 
-.wppcontent:hover {
-    width: 300px;
-    height: auto;
-    background-color: rgb(48, 62, 124);
-    color: rgb(0, 255, 191);
-    padding: 20px;
-    border-radius: 25px;
-    position: inherit !important;
-}
 
 #form a {
     text-decoration: none;
@@ -259,6 +246,7 @@ table, th, td {
 .footer {
     background-color: rgb(45, 51, 77) !important;
     color: white;
+    width: 100vw;
 }
 
 .footer a {
