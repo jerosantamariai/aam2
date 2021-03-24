@@ -1,30 +1,32 @@
 import React from 'react';
-import LogoPP from '../../img/logoProtegePyme.png';
+import LogoPPT from '../../img/logotrasparente.png';
 import Typical from 'react-typical';
 
 const Welcome = props => {
     return (
         <section className="container1 color-verde d-flex">
-            <div className="row mx-auto rowW">
-                <div className="content col-sm-12 col-md-6 position-inherit my-auto">
-                    <h1 className="d-flex justify-content-center">Cobranza judicial de</h1>
-                    <h2 className="d-flex justify-content-center">
+            <div className="row mx-auto d-flex justify-content-center rowW no-gutters">
+                <div className="content cuadro col-sm-12 col-md-6 position-inherit my-auto">
+                    <h1 className="d-flex justify-content-center p-3">Cobranza judicial de</h1>
+                    <h2 className="d-flex justify-content-center p-3">
                         <Typical
                             loop={Infinity}
                             wrapper='b'
                             steps={[
                                 'Facturas,',
                                 1000,
-                                'cheques',
+                                'cheques,',
                                 1000,
-                                'y pagarés',
-                                1500,
+                                'pagarés',
+                                1000,
+                                'y otros documentos.',
+                                2000,
                             ]}
                         /></h2>
-                    <p className="d-flex justify-content-center">Estudio jurídico 100% online</p>
+                    <h4 className="d-flex justify-content-center p-3">Estudio jurídico 100% online</h4>
                 </div>
                 <div className="photo col-sm-12 col-md-6 position-inherit text-center my-auto">
-                    <img src={LogoPP} alt="logopp" className="logoPPOJ" />
+                    <img src={LogoPPT} alt="logopp" className="logoPPOJ" />
                 </div>
             </div>
         </section>

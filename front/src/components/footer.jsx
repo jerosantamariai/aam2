@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Typical from 'react-typical';
+// import Typical from 'react-typical';
 
 const Footer = props => {
     return (
