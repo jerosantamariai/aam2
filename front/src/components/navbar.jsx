@@ -8,7 +8,7 @@ const Navbar = () => {
         <>
             <nav className="navbar navbar-expand-lg navbar-light personalColor">
                 <div className="container py-2">
-                    <Link className="navbar-brand" to="/" width="120"><img src={LogoProtegePyme} alt="ProtegePyme" width="120"/></Link>
+                    <Link className="navbar-brand" to="/" width="100"><img src={LogoProtegePyme} alt="ProtegePyme" width="100"/></Link>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon">
                             <i class="fas fa-align-justify"></i>
